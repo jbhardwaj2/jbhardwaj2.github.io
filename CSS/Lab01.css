@@ -1,0 +1,213 @@
+.container
+{
+    display: grid;
+    grid-template-rows: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+    grid-template-columns: 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px;
+    grid-gap: 10px;
+}
+
+body
+{
+    background-color: lightgray;
+}
+
+.title
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#GeneralStyle
+{
+    background-color: white;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid blue;
+    text-align: center;
+}
+
+#LinkStyle
+{
+    text-align: center;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#LinkStyle
+{
+    text-align: center;
+    font-size: xx-large;
+}
+
+@media screen and ( min-width : 800px )
+{
+    body { background-color: #bbb; }
+    #site 
+    {
+
+
+    }
+
+    #title
+    {
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-column-end: span 8;
+    }
+
+    #HomeLink
+    {
+        grid-row-start: 2;
+        grid-column-start: 4;
+        grid-column-end: span 1;
+    }
+
+    #ProjectsLink
+    {
+        grid-row-start: 2;
+        grid-column-start: 5;
+        grid-column-end: span 1;
+    }
+
+    #HobbiesLink
+    {
+        grid-row-start: 2;
+        grid-column-start: 6;
+        grid-column-end: span 1;
+    }
+
+    #ContactLink
+    {
+        grid-row-start: 2;
+        grid-column-start: 7;
+        grid-column-end: span 1;
+    }
+
+    #InfoBlock
+    {
+        grid-row-start: 3;
+        grid-row-end: span 4;
+        grid-column-start: 3;
+        grid-column-end: span 4;
+    }
+
+    #Quote
+    {
+        grid-row-start: 3;
+        grid-row-end: span 3;
+        grid-column-start: 7;
+        grid-column-end: span 2;
+    }
+
+    #HomeLink2
+    {
+        grid-row-start: 1;
+        grid-column-start: 4;
+        grid-column-end: span 1;
+    }
+
+    #ProjectLink2
+    {
+        grid-row-start: 1;
+        grid-column-start: 5;
+        grid-column-end: span 1;
+    }
+
+    #HobbiesLink2
+    {
+        grid-row-start: 1;
+        grid-column-start: 6;
+        grid-column-end: span 1;
+    }
+
+    #ContactLink2
+    {
+        grid-row-start: 1;
+        grid-column-start: 7;
+        grid-column-end: span 1;
+    }
+
+    #Trike
+    {
+        grid-row-start: 3;
+        grid-row-end: span 4;
+        grid-column-start: 2;
+        grid-column-end: span 3;
+    }
+
+    #TrikeDesc
+    {
+        grid-row-start: 8;
+        grid-row-end: span 1;
+        grid-column-start: 2;
+        grid-column-end: span 3;
+    }
+
+    #GoKart
+    {
+        grid-row-start: 3;
+        grid-row-end: span 4;
+        grid-column-start: 7;
+        grid-column-end: span 3;
+    }
+
+    #GoKartDesc
+    {
+        grid-row-start: 8;
+        grid-row-end: span 1;
+        grid-column-start: 7;
+        grid-column-end: span 3;
+    }
+
+    #Skills
+    {
+        grid-row-start: 3;
+        grid-row-end: span 3;
+        grid-column-start: 5;
+        grid-column-end: span 2;
+    }
+
+    #Boxing
+    {
+        grid-row-start: 3;
+        grid-row-end: span 3;
+        grid-column-start: 3;
+        grid-column-end: span 3;
+    }
+
+    #MuayThai
+    {
+        grid-row-start: 3;
+        grid-row-end: span 3;
+        grid-column-start: 6;
+        grid-column-end: span 3;
+    }
+
+    #Sleep
+    {
+        grid-row-start: 7;
+        grid-row-end: span 3;
+        grid-column-start: 3;
+        grid-column-end: span 3;
+    }
+
+    #Hockey
+    {
+        grid-row-start: 7;
+        grid-row-end: span 3;
+        grid-column-start: 6;
+        grid-column-end: span 3;
+    }
+
+    #Email
+    {
+        grid-row-start: 3;
+        grid-row-end: span 3;
+        grid-column-start: 4;
+        grid-column-end: span 3;
+    }
+}
